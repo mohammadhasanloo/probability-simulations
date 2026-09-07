@@ -1,0 +1,236 @@
+{
+  "monty_hall": {
+    "stay": [
+      {
+        "strategy": "stay",
+        "trials": 10,
+        "wins": 2,
+        "expected": 0.3333333333333333,
+        "rate": 0.2,
+        "error": 0.1333333333333333
+      },
+      {
+        "strategy": "stay",
+        "trials": 100,
+        "wins": 30,
+        "expected": 0.3333333333333333,
+        "rate": 0.3,
+        "error": 0.033333333333333326
+      },
+      {
+        "strategy": "stay",
+        "trials": 1000,
+        "wins": 300,
+        "expected": 0.3333333333333333,
+        "rate": 0.3,
+        "error": 0.033333333333333326
+      },
+      {
+        "strategy": "stay",
+        "trials": 10000,
+        "wins": 3323,
+        "expected": 0.3333333333333333,
+        "rate": 0.3323,
+        "error": 0.0010333333333333306
+      },
+      {
+        "strategy": "stay",
+        "trials": 100000,
+        "wins": 33294,
+        "expected": 0.3333333333333333,
+        "rate": 0.33294,
+        "error": 0.0003933333333333011
+      },
+      {
+        "strategy": "stay",
+        "trials": 1000000,
+        "wins": 333601,
+        "expected": 0.3333333333333333,
+        "rate": 0.333601,
+        "error": 0.00026766666666666605
+      }
+    ],
+    "switch": [
+      {
+        "strategy": "switch",
+        "trials": 10,
+        "wins": 8,
+        "expected": 0.6666666666666666,
+        "rate": 0.8,
+        "error": 0.13333333333333341
+      },
+      {
+        "strategy": "switch",
+        "trials": 100,
+        "wins": 70,
+        "expected": 0.6666666666666666,
+        "rate": 0.7,
+        "error": 0.033333333333333326
+      },
+      {
+        "strategy": "switch",
+        "trials": 1000,
+        "wins": 700,
+        "expected": 0.6666666666666666,
+        "rate": 0.7,
+        "error": 0.033333333333333326
+      },
+      {
+        "strategy": "switch",
+        "trials": 10000,
+        "wins": 6677,
+        "expected": 0.6666666666666666,
+        "rate": 0.6677,
+        "error": 0.0010333333333333306
+      },
+      {
+        "strategy": "switch",
+        "trials": 100000,
+        "wins": 66706,
+        "expected": 0.6666666666666666,
+        "rate": 0.66706,
+        "error": 0.00039333333333335663
+      },
+      {
+        "strategy": "switch",
+        "trials": 1000000,
+        "wins": 666399,
+        "expected": 0.6666666666666666,
+        "rate": 0.666399,
+        "error": 0.00026766666666666605
+      }
+    ],
+    "coin": [
+      {
+        "strategy": "coin",
+        "trials": 10,
+        "wins": 4,
+        "expected": 0.5,
+        "rate": 0.4,
+        "error": 0.09999999999999998
+      },
+      {
+        "strategy": "coin",
+        "trials": 100,
+        "wins": 52,
+        "expected": 0.5,
+        "rate": 0.52,
+        "error": 0.020000000000000018
+      },
+      {
+        "strategy": "coin",
+        "trials": 1000,
+        "wins": 505,
+        "expected": 0.5,
+        "rate": 0.505,
+        "error": 0.0050000000000000044
+      },
+      {
+        "strategy": "coin",
+        "trials": 10000,
+        "wins": 4961,
+        "expected": 0.5,
+        "rate": 0.4961,
+        "error": 0.0039000000000000146
+      },
+      {
+        "strategy": "coin",
+        "trials": 100000,
+        "wins": 50001,
+        "expected": 0.5,
+        "rate": 0.50001,
+        "error": 9.99999999995449e-06
+      },
+      {
+        "strategy": "coin",
+        "trials": 1000000,
+        "wins": 499826,
+        "expected": 0.5,
+        "rate": 0.499826,
+        "error": 0.00017400000000000748
+      }
+    ]
+  },
+  "integration": [
+    {
+      "samples": 10,
+      "mean": 0.7395980820590402,
+      "variance": 0.04848977238843787,
+      "error": 0.04580008133840807,
+      "standard_error": 0.06963459800159535
+    },
+    {
+      "samples": 100,
+      "mean": 0.7801608861364077,
+      "variance": 0.0457167005770436,
+      "error": 0.005237277261040618,
+      "standard_error": 0.021381464069853497
+    },
+    {
+      "samples": 1000,
+      "mean": 0.7838625845569581,
+      "variance": 0.0506506516358295,
+      "error": 0.0015355788404901594,
+      "standard_error": 0.007116927120311792
+    },
+    {
+      "samples": 10000,
+      "mean": 0.7859289964077267,
+      "variance": 0.04999436049790252,
+      "error": 0.0005308330102784531,
+      "standard_error": 0.0022359418708433033
+    },
+    {
+      "samples": 100000,
+      "mean": 0.7856462218658459,
+      "variance": 0.04950769895035367,
+      "error": 0.00024805846839759393,
+      "standard_error": 0.0007036170759038873
+    },
+    {
+      "samples": 1000000,
+      "mean": 0.7851991420994574,
+      "variance": 0.04985762634740649,
+      "error": 0.00019902129799087565,
+      "standard_error": 0.00022328821363297815
+    }
+  ],
+  "st_petersburg": [
+    {
+      "games": 10,
+      "mean_payout": 3.1,
+      "largest_payout": 8,
+      "predicted": 2.660964047443681
+    },
+    {
+      "games": 100,
+      "mean_payout": 3.37,
+      "largest_payout": 32,
+      "predicted": 4.321928094887362
+    },
+    {
+      "games": 1000,
+      "mean_payout": 20.971,
+      "largest_payout": 16384,
+      "predicted": 5.9828921423310435
+    },
+    {
+      "games": 10000,
+      "mean_payout": 9.5672,
+      "largest_payout": 32768,
+      "predicted": 7.643856189774724
+    },
+    {
+      "games": 100000,
+      "mean_payout": 8.05992,
+      "largest_payout": 32768,
+      "predicted": 9.304820237218406
+    },
+    {
+      "games": 1000000,
+      "mean_payout": 10.512346,
+      "largest_payout": 524288,
+      "predicted": 10.965784284662087
+    }
+  ]
+}
